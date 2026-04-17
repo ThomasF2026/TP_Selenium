@@ -28,7 +28,7 @@ class Test_FirstTest(BaseTest): # héritage
 
         ProductList = ProductListPage(self.driver)
         ProductList.clickOn_FilterOnStock()
-        sleep(3)
+        sleep(5)
         ProductList.select_ProductItem()
 
         AddToCart = ProductPage(self.driver)
